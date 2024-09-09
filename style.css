@@ -1,3 +1,12 @@
 #leTrucQuiSimuleUnCommit {
     background-color: aqua;
 }
+
+#nom {
+    font-weight: 900;
+}
+
+.filles{
+    background-color: bisque;
+    font-size: larger;
+}
