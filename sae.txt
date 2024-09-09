@@ -11,6 +11,7 @@ git commit -am "message de commit" SEULEMENT si fichiers modifiés
 git commit (et profil correctement configuré)
 
 git diff (code ajouté par rapport au dernier commit)
+git diff nomBranche1:fichier..nomBranche2:fichier (..?)
 
 git log
 git log --oneline
