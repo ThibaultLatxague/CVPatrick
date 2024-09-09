@@ -10,4 +10,24 @@ git commit -m "message de commit"
 git commit -am "message de commit" SEULEMENT si fichiers modifiés
 git commit (et profil correctement configuré)
 
-git diff (code ajouté par rapport au dernier commit)
+git diff (code ajouté par rapport au dernier commit OU branche)
+git diff nomBranche1:fichier..nomBranche2:fichier (..?)
+
+git log
+git log --oneline
+git log --oneline -n2 (2 derniers commits)
+
+/**** Branches ****/
+
+git branch nomDeLaBranche
+git branch -d nomDeLaBranche (safe delete) -> ne pas supprimer SAE 
+git branch (lister les branches)
+git switch nomDeLaBranche (se déplacer sur la branche spécifique)
+git switch - (revenir à la branche précédente)
+git switch -c nomDeLaBranche (créer la branchee et s'y déplacer)
+
+/**** Fusionner ****/
+
+git switch master
+git diff master..nomBrancheAFusionner
+git merge nomBrancheAFusionner
