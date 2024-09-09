@@ -7,3 +7,7 @@ git config --global user.email "email"
 git status
 git add *
 git commit -m "message de commit"
+git commit -am "message de commit" SEULEMENT si fichiers modifiés
+git commit (et profil correctement configuré)
+
+git diff (code ajouté par rapport au dernier commit)
