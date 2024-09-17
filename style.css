@@ -14,5 +14,9 @@
 }
 
 body{
-    background-color: red;
+    background-color: rgb(177, 166, 166);
+}
+
+h1 {
+    color: aqua;
 }
