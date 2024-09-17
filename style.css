@@ -9,4 +9,10 @@
 .filles{
     background-color: bisque;
     font-size: larger;
+    font-family: Verdana;
+    color:brown;
+}
+
+body{
+    background-color: red;
 }
